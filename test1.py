@@ -1,4 +1,5 @@
 def func1():
-  print("Hello World!))
+print("mal")
+  print("Hello World!)
 
 func1()
