@@ -1,7 +1,12 @@
 name: Super-Linter
 
 on: 
-  push
+  push:
+    paths:
+    - 'main'
+  pull_request:
+    paths:
+    - 'main'
   
 jobs:
   super-lint:
@@ -19,7 +24,7 @@ jobs:
         env:
           DEFAULT_BRANCH: main # Aqui se podria elegir otro branch por defecto.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          OUTPUT_DETAILS: detailed
+          #OUTPUT_DETAILS: detailed
           #VALIDATE_ALL_CODEBASE: false # Con esto, solo se revisaran los archivos nuevos o editados, no todos.
           # DISABLE_ERRORS: true sirve para que siga funcionando aun cuando el linter encuentre problemas
           # (No recomendable)
