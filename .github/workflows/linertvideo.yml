@@ -3,10 +3,10 @@ name: Super-Linter
 on: 
   push:
     paths:
-    - 'main'
+    - main
   pull_request:
     paths:
-    - 'main'
+    - main
   
 jobs:
   super-lint:
