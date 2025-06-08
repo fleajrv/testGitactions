@@ -1,12 +1,6 @@
 name: Super-Linter
 
-on: 
-  push:
-    paths:
-    - 'testGitactions'
-  pull_request:
-    paths:
-    - 'testGitactions'
+on: pull_request
   
 jobs:
   super-lint:
