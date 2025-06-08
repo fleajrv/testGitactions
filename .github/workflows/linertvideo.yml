@@ -1,6 +1,9 @@
 name: Super-Linter
 
 on: 
+  push:
+    paths:
+    - 'main'
   pull_request:
     paths:
     - 'main'
