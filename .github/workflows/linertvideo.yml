@@ -1,6 +1,9 @@
 name: Super-Linter
 
-on: pull_request
+on: 
+  pull_request:
+    paths:
+    - 'main'
 
 jobs:
   super-lint:
