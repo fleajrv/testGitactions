@@ -1,23 +1,23 @@
 def func1():
     print("mal")
 
+
 def func2():
-        print("mal")
+    print("mal")
 
 
 def me_gusta_el_cafe():
-        print("chao")
+    print("chao")
+
 
 func1()
 
 def funcionclasica():
     print("hola")
-                print("adios")
+    print("adios")
 
 
-            print   ("hola")
+print("hola")
 
 
-
-
-                                                                                    me_gusta_el_cafe()
+me_gusta_el_cafe()
