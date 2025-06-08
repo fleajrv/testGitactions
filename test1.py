@@ -2,7 +2,7 @@ def func1():
     print("mal")
 
 def func2():
-        print("mal")
+        print("mall")
 
 """
 def me_gusta_el_cafe():
