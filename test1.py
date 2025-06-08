@@ -1,5 +1,5 @@
 def func1():
-    print("mal")
+    print("mal"))
 
 
 func1()
