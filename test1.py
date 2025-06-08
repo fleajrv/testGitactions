@@ -1,6 +1,6 @@
 def func1():
     print("mal")
-
+"""
 def func2():
         print("mal")
 
@@ -20,3 +20,4 @@ def funcionclasica():
 
 
                                                                                     me_gusta_el_cafe()
+"""
