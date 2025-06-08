@@ -4,9 +4,6 @@ on:
   push:
     paths:
     - main
-  pull_request:
-    paths:
-    - main
   
 jobs:
   super-lint:
