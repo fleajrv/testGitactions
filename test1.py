@@ -5,3 +5,6 @@ def func1():
 def func2():
     print("mall")
 
+
+def func3():
+    print("ok")
