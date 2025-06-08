@@ -1,5 +1,9 @@
 def func1():
-    print("mal"))
+    print("mal")
+
+def func2():
+        print("mal")
+
 
 
 func1()
