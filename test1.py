@@ -10,7 +10,9 @@ def me_gusta_el_cafe():
 
 func1()
 
-
+def funcionclasica():
+    print("hola")
+                print("adios")
 
 
 
