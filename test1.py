@@ -1,5 +1,4 @@
 def func1():
-print("mal")
-  print("Hello World!)
+  print("mal")
 
 func1()
